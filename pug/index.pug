@@ -1,0 +1,102 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Flat Mate
+    link(href="styles.min.css", rel="stylesheet")
+  body
+    .main-wrapper
+      header.main-header
+        .top-nav
+          a(href="#").logo
+            img(src="images/top-logo-icon.png" alt="logo").logo-img
+            h2.title Flat Mate
+          .login
+            h2 have an account?
+            a(href="#").login-button login
+        .banner
+          .description
+            h2 Lorem ipsum dolor sit amet
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            a(href="#").special read more
+          .banner-pic
+            img(src="images/banner-icon.png" alt="banner icon")
+      section.details
+        .details-pic
+          img(src="images/details-icon.png" alt="details-icon")
+        .details-description
+          h2 Lorem ipsum dolor sit amet
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .details-registration
+          a(href="#").sign-up
+          a(href="#").fb-sign-up
+      section.slider
+        .slider-item1.active
+          h2 the modern era of web designing
+          p We make wireframe ultra fast, leak proof
+          img(src="images/browser-window.png" alt="browser-window")
+        .slider-item1
+          h2 the modern era of web designing
+          p We make wireframe ultra fast, leak proof
+          img(src="images/browser-window.png" alt="browser-window")
+        .slider-item1
+          h2 the modern era of web designing
+          p We make wireframe ultra fast, leak proof
+          img(src="images/browser-window.png" alt="browser-window")
+      section.pricing
+        h2.pricing-title A wireframe is the primitive skeleton of your website
+        p.pricing-description Pick a plan from below to get started! Already 20000+ websites and webprojects have been successfully wireframed with HotGloo.
+        ul.pricing-items
+          li.item1
+            .description
+              h2 Free
+              p.price $0/Month
+              p.projects 1 Project
+              p.members 5 Members
+              p.storage 5 GB
+            a(href="#").buy-button Sign Up
+          li.item2
+            .description
+              h2 Professional
+              p.price $50/Month
+              p.projects 20 Projects
+              p.members 50 Members
+              p.storage 100 GB
+            a(href="#").buy-button Buy Now
+          li.item3
+            .description
+              h2 Enterprise
+              p.price $90/Month
+              p.projects Unlimited
+              p.members Unlimited
+              p.storage 500 GB
+            a(href="#").buy-button Buy Now
+      section.video
+        h2 A wireframe is the primitive skeleton of your website.
+        .video-preview
+      section.contact-us
+        img(src="images/contact-icon.png" alt="contact-icon")
+        form(method="post" action="#").feedback-form
+          .left-wrapper
+            label(for="input-name") Name*
+            input(type="text" id="input-name").input-name
+            label(for="input-mail") E-mail*
+            input(type="text" id="input-mail").input-mail
+          .right-wrapper
+            label(for="input-message") Message*
+            textarea(id="input-message").input-message
+            input(type="submit" value="send").submit-button
+      footer.footer
+        .logo
+          img(src="images/logo-icon.png")
+          h2 Flat Mate |
+          p
+            |Designed by&nbsp
+            a(href="#") WWW.CSSAUTHOR.COM
+        .links
+          a(href="#").twitter
+          a(href="#").facebook
